@@ -1,0 +1,31 @@
+ 
+  :root{
+    --violet:#6d28d9;
+    --green:#27ae60;
+    --blackblue:#192a56;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  }
+ 
+ 
+ .App {
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: "YekanBakh";
+  }
+  

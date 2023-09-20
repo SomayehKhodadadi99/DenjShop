@@ -1,0 +1,191 @@
+
+.emptyContainer
+{
+  border: solid 1px silver;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  background: url(../../image/empty-cart.png); 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.buttonEmpty
+{
+  margin-top: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+
+.buttonEmpty button
+{
+  background-color: #6ab946;
+  border: 1px solid #4aa42e;
+  min-width: 161px;
+  padding: 10px 20px;
+  margin: 10px 10px 46px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.buttonEmpty button:hover
+{
+  background-color: #77ce4f;
+  border: 1px solid #4aa42e;
+  letter-spacing:1px ;
+  transition: all 0.2s ease;
+  
+}
+
+
+.emptytitle h1{
+  padding: 68px 0;
+  text-align: center;
+  line-height: 1.222px;
+  font-size: 36px;
+  padding: 50px;
+  margin-top: 0px;
+  color: rgb(167, 165, 165);
+  margin-right: 10px;
+
+}
+
+.emptyimg
+{
+
+  width: 600px;
+  height: 400px;
+  background-color: aqua;
+}
+
+.emptyimg img
+{
+
+width: 100%;
+height: 100%;
+ background: url(../../image/empty-cart.png); 
+ z-index: 5000;
+
+}
+
+
+@media (max-width: 620px) {
+  
+.emptyContainer
+{
+  border: solid 1px silver;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  background: url(../../image/empty-cart.png); 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+
+
+.emptytitle h1{
+  padding: 40px 0;
+  text-align: center;
+  line-height: 1.222px;
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 0px;
+  color: rgb(167, 165, 165);
+  margin-right: 10px;
+
+}
+
+.buttonEmpty
+{
+  margin-top: 30px;
+  width: 40px;
+  height: 30px;
+}
+
+
+.buttonEmpty button
+{
+  background-color: #6ab946;
+  border: 1px solid #4aa42e;
+  min-width: 50px;
+  padding: 10px 20px;
+  margin: 10px 10px 46px;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+
+}
+
+
+@media (max-width: 430px) {
+  
+  .emptyContainer
+  {
+    border: solid 1px silver;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    background: url(../../image/empty-cart.png); 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .emptytitle h1{
+    padding: 30 0;
+    text-align: center;
+    line-height: 1.222px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 0px;
+    color: rgb(167, 165, 165);
+    margin-right: 10px;
+  
+  }
+  
+  .buttonEmpty
+  {
+    margin-top: 30px;
+    width: 40px;
+    height: 30px;
+  }
+  
+  
+  .buttonEmpty button
+  {
+    background-color: #6ab946;
+    border: 1px solid #4aa42e;
+    min-width: 40px;
+    padding: 10px 20px;
+    margin: 10px 10px 46px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  }
+

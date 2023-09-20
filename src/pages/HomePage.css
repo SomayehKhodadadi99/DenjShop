@@ -1,0 +1,212 @@
+
+  :root{
+    --violet:#6d28d9;
+    --green:#27ae60;
+    --blackblue:#192a56;
+    --dark-color:#219150;
+    --black:#192a56;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  }
+/* .productList {
+    margin-top: 50px;
+    /* background-color: rgb(255, 184, 184);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    max-width: 1170px;
+    width: 90vw;
+  } */
+   
+  /* .product {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ede9fe;
+  } */
+  /* .prouductImg img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  /* .container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 9%;
+    background-color: red;
+  } */
+
+  .container
+  {
+    background-color: #eee;
+  }
+
+.container  .productList
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    padding:1.2rem 9%;
+
+}
+
+.product
+{
+    background: #fff;
+    border:.1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow); 
+  
+}
+.prouductImg
+{
+    height: 25rem;
+    width: 100%;
+    padding:1.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.product:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.prouductImg img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+
+}
+.productDesc
+{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+
+.productDesc h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.productDesc p{
+    color:var(--light-color);
+    font-size: 1.6rem;
+    padding:.5rem 0;
+    line-height: 1.5;
+}
+
+.productDesc .price{
+    color:var(--green);
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sub-heading{
+  text-align: center;
+  color:var(--green);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.heading{
+  text-align: center;
+  color:var(--black);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.offprice
+{
+font-size: 1.9rem;
+color:var(--black);
+font-weight: bold;
+text-decoration: line-through;
+}
+
+.btnProduct
+{
+  background-color: var(--violet);
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: .8rem 3rem;;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+   display: inline-block;
+
+}
+
+.btnProduct:hover{
+  background: var(--blackblue);
+ letter-spacing: .1rem; 
+} 
+
+
+/*   
+  .productDesc {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  /* .btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    background-color: #ede9fe;
+    color: #6d28d9;
+    border-radius: 5px;
+  } */
+/*   
+  .primary {
+    background-color: #6d28d9;
+    color: #fff;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #444;
+  } */
+  
+@media (max-width:1200px){
+
+
+
+}
+
+@media (max-width:991px){
+
+
+  
+.container  .productList
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    padding:1rem 2rem;
+
+}
+}
+
+@media (max-width:768px){
+
+}
+
+

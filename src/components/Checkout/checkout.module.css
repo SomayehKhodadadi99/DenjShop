@@ -1,0 +1,103 @@
+.cartCenter
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding:1.2rem 9%;
+  transition: all 0.2s ease;
+
+}
+
+.cartItemList
+{
+  width: 27%;
+
+  border: 1px solid silver;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+  height: 200px;
+  text-align: right;
+}
+
+
+.cartSummery {
+  
+    width: 70%;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    text-align: right;
+    padding: 2rem;
+
+    
+  }
+
+  .title
+  {
+
+    text-align: center;
+  
+    border: solid 1px rgb(202, 126, 81);
+    font-size: 1.75rem;
+    background-color:#1a73e8;;
+ 
+    border-radius: 5px;
+    opacity: 1;
+
+    margin-bottom: 2rem;
+
+  }
+
+  .title h4{
+    color: #fff;
+    font-weight: 0.5px;
+    padding: 1rem;
+    
+  }
+
+  .name
+  {
+    color: orange;
+    font-size: 2rem;
+
+  }
+
+  .qty
+  {
+    color: #34a853;
+    font-size: 2rem;
+  }
+
+  .qprice
+  {
+    color: #21105f;
+    font-size: 2rem;
+  }
+
+  .symbol
+  {
+    font-size: 2rem;
+    color: #1a8be8;
+  }
+
+  .pay
+  {
+   
+
+    text-align: center;
+  
+    border: solid 1px rgb(202, 126, 81);
+    font-size: 2rem;
+    background-color:#34a853;;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    font-weight: bold;
+
+    margin-bottom: 2rem;
+
+ 
+  }
+
+  
